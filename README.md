@@ -16,7 +16,7 @@ En cada etapa:
 No marques una casilla si el comando produjo un error o si no puedes explicar qué cambió.
 
 ## 1. ¿Qué hay en este entorno?
-
+Oaaaaaaa
 El contenedor está basado en Debian Trixie y tiene disponibles:
 
 - Java OpenJDK 25 (incluye `java` y `javac`).
@@ -35,7 +35,7 @@ mvn --version
 
 **Actividad:** copia las versiones que obtuviste en tus apuntes o en el reporte de la práctica.
 
-- [ ] Confirmé que Git, `java`, `javac` y Maven están disponibles.
+- [x] Confirmé que Git, `java`, `javac` y Maven están disponibles.
 
 Los ejemplos están en `src/`. La carpeta `bin/` se usa solamente para archivos compilados y está excluida por `.gitignore`.
 
@@ -54,8 +54,8 @@ Observa que `javac` genera archivos `.class` en `bin/`, mientras que `java` ejec
 
 **Actividad:** modifica el mensaje de `Saludo.java` o agrega una operación a `Calculadora.java`, vuelve a compilar y ejecuta nuevamente la clase correspondiente.
 
-- [ ] Compilé y ejecuté los dos ejemplos.
-- [ ] Realicé una modificación en un archivo `.java` y comprobé su resultado.
+- [x] Compilé y ejecuté los dos ejemplos.
+- [x] Realicé una modificación en un archivo `.java` y comprobé su resultado.
 
 ## 3. Preparar el repositorio
 
@@ -77,14 +77,14 @@ git diff --cached
 
 **Actividad:** prepara únicamente los cuatro archivos indicados. Antes de continuar, verifica que `git diff --cached` muestre tus cambios y que no incluya archivos `.class`.
 
-- [ ] Revisé el estado inicial con `git status`.
-- [ ] Agregué los archivos fuente y de configuración con `git add`.
-- [ ] Revisé el contenido preparado con `git diff --cached`.
+- [x] Revisé el estado inicial con `git status`.
+- [x] Agregué los archivos fuente y de configuración con `git add`.
+- [x] Revisé el contenido preparado con `git diff --cached`.
 
 ## 4. Crear y corregir commits
 
 Crea el primer commit:
-
+"Funcionara mi primer Commit?"
 ```bash
 git commit -m "Agrega ejercicio de Git y Java"
 git log --oneline -1
@@ -109,9 +109,9 @@ git log --oneline -1
 
 **Actividad:** después del primer commit, cambia una línea del README, ejecuta `git diff`, prepara el cambio y usa `git commit --amend --no-edit`. Comprueba que el último commit contiene la modificación.
 
-- [ ] Creé el primer commit con un mensaje descriptivo.
-- [ ] Revisé un cambio con `git diff` antes de prepararlo.
-- [ ] Incorporé el cambio al commit anterior con `git commit --amend`.
+- [x] Creé el primer commit con un mensaje descriptivo.
+- [x] Revisé un cambio con `git diff` antes de prepararlo.
+- [x] Incorporé el cambio al commit anterior con `git commit --amend`.
 
 ## 5. Crear una rama y combinarla con `merge`
 
